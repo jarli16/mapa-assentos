@@ -45,7 +45,7 @@ app.post('/mapa-assentos', (req, res) => {
     const base64 = buffer.toString('base64');
 
     res.json({
-        imagem_base64: imagem_base64: base64
+    imagem_base64: base64
     });
 });
 
